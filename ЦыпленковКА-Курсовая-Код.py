@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 # Загрузка данных
-data = pd.read_csv("sales_data.csv")  # Укажите путь к вашему файлу
+data = pd.read_csv("sales_data.csv")
 
 # Преобразование даты
 data['Date'] = pd.to_datetime(data['Date'])
